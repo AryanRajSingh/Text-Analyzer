@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: blueviolet;
+
+}
+
+.container {
+  padding: 30px;
+  background: hotpink;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-report dt:after {
+  content: ": ";
+}
+
+textarea {
+	background: silver;
+}
+
+button {
+  color: black;
+  width: 150px;
+  height: 40px;
+
+}
+
+
+
+button:hover {
+  background: blueviolet;
+  color: white;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: floralwhite;
+    text-decoration-line: underline;
+    font-family: cursive;
+}
+h3 {
+    text-align: center;
+    color: hotpink;
+    font-family: cursive;
+}
+h4 {
+  text-align: center;
+  color: white;
+  }
+
+  textarea {
+    background: white;
+    border-width: medium;
+    border: dashed;
+}
+
+img {
+    margin: 4px;
+    border-style: ridge;
+}
+

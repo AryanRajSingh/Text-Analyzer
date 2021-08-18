@@ -1,0 +1,76 @@
+<head>
+  <title>Aryan Raj | Text Analyzer</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Solution to Text Analyzer for Thinkful 3.1">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="fav_icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav_icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav_icons/favicon-16x16.png">
+<link rel="manifest" href="fav_icons/site.webmanifest">
+</head>
+
+
+<body>
+
+  <nav class="nav">
+    <!-- <a href="index.html#header" class="nav__logo__link"> --><img class="nav__logo" src="fav_icons/favicon.ico" alt="logo"></a>
+    <!-- <span class="hamburger__name">menu</span>
+    <svg width="35px" height="35px" class="nav__hamburger">
+      <path d="M 5 5 L 33 5" class="hamburger"></path>
+      <path d="M 5 15 L 33 15" class="hamburger"></path>
+      <path d="M 5 25 L 33 25" class="hamburger"></path>
+    </svg> -->
+  </nav>
+
+<header class="header">
+    <h1 class="header-title">Basic Text Analyzer </h1>
+    <hr class="header-separator">
+    <h3 class="header-description">Text Analyzer made with HTML, CSS and JavaScript for simple Text Analyze.</h3>
+
+  </header>
+
+
+
+  <div class="container">
+    <main>
+      <h1>Text Analzyer</h1>
+      <form class="js-txt-form">
+        <div>
+          <textarea cols="115" rows="20" id="user-text" name="user-text" placeholder="Here is where you can paste/enter the text that you would like analyzed." required></textarea>
+        </div>
+        <br>
+        <div>
+          <button type="submit">Analyze it!</button>
+        </div>
+      </form>
+
+      <dl class="hidden text-report js-txt-report">
+        <dt>Word count</dt>
+        <dd class="js-word-count"></dd>
+
+        <dt>Unique word count</dt>
+        <dd class="js-unique-word-count"></dd>
+
+        <dt>Average word length</dt>
+        <dd class="js-average-word-length"></dd>
+      </dl>
+    </main>
+  </div>
+
+  <footer class="footer">
+  <h4 class="footer-copyright">© Aryan Raj 2021</h4>
+  <div class="footer-social-btn">
+    <a href="https://twitter.com/TheMalni" target="_blank"><span class="fa fa-twitter-square fa-lg"></span></a>
+    <a href="https://codepen.io/themalni" target="_blank"><span class="fa fa-codepen fa-lg"></span></a>
+    <a href="https://github.com/Themalni" target="_blank"><span class="fa fa-github-square fa-lg"></span></a>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
